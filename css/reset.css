@@ -129,3 +129,6 @@ button {
   border: none;
   cursor: pointer;
 }
+.images {
+  cursor: pointer;
+}

@@ -3,7 +3,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 header {
-  border: 2px solid green;
   padding: 24.5px 111px;
 }
 nav,
@@ -50,7 +49,6 @@ nav,
   font-size: 96px;
   font-weight: 700;
   letter-spacing: 7px;
-  line-height: ;
 }
 .description {
   font-size: 20px;
@@ -65,11 +63,45 @@ nav,
 }
 .places {
   text-align: center;
-  margin-top: 157px auto;
+  margin: 157px auto;
   width: 1312px;
-  border: 1px solid red;
+  color: #041562;
 }
 
+.places-title {
+  margin-top: 157px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 5%;
+}
+.places-p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 5%;
+}
+.section-hotels {
+  border: 2px solid red;
+  display: inline-block;
+  text-align: center;
+  width: 1312px;
+  height: 710px;
+  margin: 132px 100px 156px 0px;
+}
+.htl-section {
+  border: 2px solid blue;
+  display: inline-block;
+  text-align: center;
+  width: 1312px;
+  height: 549px;
+  margin-top: 75px;
+}
+.htl-img {
+  width: 404px;
+  height: 338px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
 .images {
   text-align: center;
   margin: 161px auto 141px auto;
@@ -79,6 +111,7 @@ nav,
   position: relative;
   margin-left: 5px;
   text-align: center;
+  margin-bottom: 75px;
 }
 .image-1-wrapper:first-child {
   margin-left: 0px;
@@ -110,6 +143,6 @@ div.absolute {
 .fixedchat {
   position: fixed;
   bottom: 75px;
-  right: 100px;
+  right: 58px;
   width: 100px;
 }
