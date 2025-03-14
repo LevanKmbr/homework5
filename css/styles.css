@@ -131,18 +131,16 @@ nav,
   width: 1312px;
   height: 710px;}
 .htl-dv{
-  position:relative;
   border: 2px solid green;
   width: 1312px;
   height: 549px;}
 .cards {
-  position: absolute;
   border: 2px solid blue;
-  display: inline-block; */
-  text-align: center
-  width: 404px;
+  display: inline-block;
+  text-align: center;
+  width:404px;
   height: 549px;
-margin-left: 10px;}
+  margin-left: 10px;}
   
 .crds-size{
   width: 404px;
