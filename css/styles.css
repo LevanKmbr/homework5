@@ -131,21 +131,7 @@ nav,
   color: #fff;
 }
 
-.htl-dv {
-  position: relative;
-  width: 500px;
-  height: 500px;
-  border: 5px solid #73ad21;
-}
 
-.cards {
-  position: absolute;
-  top: 50;
-  right: 0;
-  width: 50px;
-  height: 100px;
-  border: 5px solid #73ad21;
-}
 
 .fixedchat {
   position: fixed;
