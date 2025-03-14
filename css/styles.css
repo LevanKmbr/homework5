@@ -61,52 +61,6 @@ nav,
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.places {
-  text-align: center;
-  margin: 157px auto;
-  width: 1312px;
-  color: #041562;
-}
-
-.places-title {
-  margin-top: 157px;
-  margin-bottom: 20px;
-  font-size: 36px;
-  font-weight: 600;
-  letter-spacing: 5%;
-}
-.places-p {
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 5%;
-}
-.hotels {
-  border: 2px solid red;
-  width: 1312px;
-  height: 710px;
-}
-.htl-dv{
-  position:relative;
-  border: 2px solid green;
-  width: 1312px;
-  height: 549px;
-  
-
-}
-.cards {
-  position: absolute;
-  border: 2px solid blue;
-  display: inline-block; */
-  text-align: center
-  width: 404px;
-  height: 549px;
-  
-}
-.crds-size{
-  width: 404px;
-  height: 338px;
-  
-}
 
 
 .images {
@@ -132,10 +86,75 @@ nav,
 }
 
 
+.images {
+  text-align: center;
+  margin: 161px auto 141px auto;
+}
+.image-1-wrapper {
+  display: inline-block;
+  position: relative;
+  margin-left: 5px;
+  text-align: center;
+  margin-bottom: 75px;
+}
+.image-1-wrapper:first-child {
+  margin-left: 0px;
+}
+.image-desc {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  font-size: 50px;
+  color: #fff;
+}
+.places {
+  text-align: center;
+  margin: 157px auto;
+  width: 1312px;
+  color: #041562;
+}
+
+.places-title {
+  margin-top: 157px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 5%;
+}
+.places-p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 5%;
+}
+.hotels {
+  border: 2px solid red;
+  width: 1312px;
+  height: 710px;}
+.htl-dv{
+  position:relative;
+  border: 2px solid green;
+  width: 1312px;
+  height: 549px;}
+.cards {
+  position: absolute;
+  border: 2px solid blue;
+  display: inline-block; */
+  text-align: center
+  width: 404px;
+  height: 549px;}
+  
+}
+.crds-size{
+  width: 404px;
+  height: 338px;}
+  
+
+
+
 
 .fixedchat {
   position: fixed;
   bottom: 75px;
-  right: 58px;
+  right: 50px;
   width: 100px;
 }
