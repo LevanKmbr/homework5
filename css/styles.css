@@ -80,7 +80,7 @@ nav,
   font-weight: 400;
   letter-spacing: 5%;
 }
-.section-hotels {
+.hotels {
   border: 2px solid red;
   width: 1312px;
   height: 710px;
@@ -131,14 +131,14 @@ nav,
   color: #fff;
 }
 
-div.relative {
+.htl-dv {
   position: relative;
   width: 500px;
   height: 500px;
   border: 5px solid #73ad21;
 }
 
-div.absolute {
+.cards {
   position: absolute;
   top: 50;
   right: 0;
