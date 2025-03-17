@@ -82,12 +82,11 @@ nav,
   letter-spacing: 5%;
   color: #626262;
 }
-.section-hotels {
-  display: inline-block;
+.hotels {
   text-align: center;
   width: 1312px;
   height: 710px;
-  margin: 132px 100px 156px 0px;
+  margin: 132px auto 156px auto;
 }
 .cards {
   width: 404px;
@@ -103,13 +102,6 @@ nav,
 p {
   display: inline-block;
   vertical-align: middle;
-}
-.htl-section {
-  display: inline-block;
-  text-align: center;
-  width: 1312px;
-  height: 549px;
-  margin: 75px 100px auto 100px;
 }
 
 .htl-img {
